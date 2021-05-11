@@ -17,5 +17,25 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Text displayed when there are no call log entries in the selected time range. -->
+    <string name="call_stats_detail_title">Kantaktstatistik-detaljer</string>
+    <string name="call_stats_incoming">Indgående: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_outgoing">Udgående: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_missed">Ubesvarede: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_blocked">Blokerede: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_percent"><xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">Samlet: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">Samlet: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">Start-dato</string>
+    <string name="call_stats_filter_to">Slut-dato</string>
+    <string name="call_stats_filter_picker_title">Filter-rækkevidde</string>
+    <string name="call_stats_date_filter">Justér tidsinterval</string>
+    <string name="call_stats_reset_filter">Nulstil tidsinterval</string>
+    <string name="call_stats_sort_by_duration">Sortér efter opkalds varighed</string>
+    <string name="call_stats_sort_by_count">Sortér efter antal opkald</string>
+    <string name="call_stats_title_for_number">Dette nummer</string>
+    <string name="call_stats_title_of_total">Af samlet</string>
+    <string name="call_stats_title_durations">Opkalds varighed</string>
+    <string name="call_stats_title_count">Antal opkald</string>
+    <string name="call_stats_title_average_duration">Gennemsnitlige opkalds varighed</string>
+    <string name="recent_calls_no_items_in_range">Din opkaldshistorik indeholder ikke nogen opkald i den valgte tids-rækkevidde.</string>
 </resources>
